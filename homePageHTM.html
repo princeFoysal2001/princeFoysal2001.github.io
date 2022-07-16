@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="homePageCss.css">
+        <script src="homePageJs.js"></script>
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <!---<div id="switch_holder" class="switch_holder">
+            <div id="switch" class="switch" onclick=OnOff()>Off</div>
+        </div>--->  
+        <div id="notification" onclick=ShowNotification()>
+            <div id="notification_count">0</div>
+        </div>
+        <textarea id="notification_details"></textarea>
+        <textarea id="notification_input"></textarea>
+        <i id="send_button" class="fas fa-paper-plane" onclick=SendMessage(),onkeypressed()></i>
+    </body>
+</html>

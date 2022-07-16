@@ -1,0 +1,92 @@
+.switch_holder
+{
+    background-color:rgb(45, 45, 47);
+    width:80px;
+    height:30px;
+    border-radius:10px;
+    position:relative;
+    user-select: none;
+    box-shadow:0px 0px 20px black;
+
+}
+.switch
+{
+    background-color:red;
+    color:white;
+    width:50px;
+    height:30px;
+    position:absolute;
+    left:0px;
+    border-radius:10px;
+    box-sizing:border-box;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5px;
+    box-shadow:0px 0px 20px red;
+}
+.switch:hover 
+{
+
+    cursor:pointer;
+}
+#notification 
+{
+    width:30px;
+    height:30px;
+    background-color:yellow;
+    border-radius:20px;
+    outline:3px solid red;
+    margin-top:10px;
+    position:relative;
+    cursor:pointer;
+    user-select:none;
+}
+#notification_count
+{
+    width:15px;
+    height:15px;
+    background-color:black;
+    color:white;
+    font-size:10px;
+    display:inline-block;
+    position:absolute;
+    right:-10px;
+    text-align:center;
+    padding-top:2px;
+    box-sizing:border-box;
+    border-radius:10px;
+}
+#notification_details
+{
+    background-color:black;
+    color:white;
+    width:300px;
+    height:600px;
+    margin-top:13px;
+    padding:5px;
+    box-sizing:border-box;
+    border-radius:10px;
+    display:none;
+    resize:vertical;
+}
+#notification_input 
+{
+    position:absolute;
+    right:30px;
+    resize:none;
+    width:300px;
+    height:100px;
+    background-color:transparent;
+    right:40px;
+    bottom:10px;
+}
+#send_button
+{
+    position:absolute;
+    right:10px;
+    bottom:17px;
+    font-size:25px;
+    cursor:pointer;
+    margin:auto;
+}
